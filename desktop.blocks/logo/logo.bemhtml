@@ -1,0 +1,2 @@
+block('logo').tag()('img')
+block('logo').match(this.ctx.url).attrs({src:this.ctx.url, alt:'Murdalay'})

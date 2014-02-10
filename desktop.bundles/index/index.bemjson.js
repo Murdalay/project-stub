@@ -11,7 +11,16 @@
         {
             block: 'header',
             content: [
-                'header content goes here'
+            
+            { 
+                block: 'logo'
+            },
+
+            {
+                block: 'title',
+                content: 'Мурдалайское логово'
+            }
+
             ]
         },
         {
