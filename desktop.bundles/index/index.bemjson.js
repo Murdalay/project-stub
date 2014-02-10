@@ -13,7 +13,8 @@
             content: [
             
             { 
-                block: 'logo'
+                block: 'logo',
+                src: '/img/logo.png',
             },
 
             {
