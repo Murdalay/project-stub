@@ -14,7 +14,7 @@
             
             { 
                 block: 'logo',
-                src: '/img/logo.png',
+                url: 'http://murdalay.com/img/logo.png' 
             },
 
             {
