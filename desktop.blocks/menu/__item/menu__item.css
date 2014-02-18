@@ -1,0 +1,25 @@
+.menu__item
+{
+	color: orange;
+	text-decoration: none;
+		display: block;
+
+}
+
+.menu__link
+{
+	color: orange;
+	text-decoration: none;
+	height: 2em;
+	display: block;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+.menu__link:hover
+{
+	color: white;
+	background-color: gray;
+
+
+}

@@ -1,0 +1,10 @@
+.content
+{
+	max-height: 80%;
+	min-height: 210px;
+	height: auto;
+	background-image: url('http://murdalay.com/img/tweed.png');
+	float: left;
+	width: 100%;
+
+}

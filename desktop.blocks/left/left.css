@@ -1,0 +1,11 @@
+.left
+{
+    background-image: url("http://murdalay.com/img/brickwall.png");
+    float: left;
+    margin-left: 4%;
+    min-height: inherit;
+    padding-left: 7%;
+    padding-right: 4%;
+    width: 54%;
+   box-shadow: 1px 19px 19px 3px #DDDDDD inset, 1px 23px 19px 3px #222;
+}

@@ -1,0 +1,12 @@
+elem('item')(
+	tag()('li'),
+    content()
+    	.match(this.ctx.caption && this.ctx.url && !this.ctx.processed)(
+    		local({'ctx._processed':true})(applyCtx({
+        			  elem: 'link',
+        			  content: this.ctx.caption,
+        			  attrs: { href: this.ctx.url }
+            }), applyNext()
+	)))
+
+elem('link').tag()('a')

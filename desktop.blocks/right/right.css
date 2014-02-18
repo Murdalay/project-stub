@@ -1,0 +1,9 @@
+.right
+{
+	width: 25%;
+	height: inherit;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	float: left;
+	background-color: #fff;
+}
